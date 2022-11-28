@@ -48,7 +48,7 @@ public class chickenMove : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space) && onGround == true)
             {
                 chicken_starlled_03.Play();
-                rb.AddForce(new Vector3(0, 15, 0), ForceMode.Impulse);
+                rb.AddForce(new Vector3(0, 10, 0), ForceMode.Impulse);
                 onGround = false;
                 anim.SetBool("isJumping", true);
             }

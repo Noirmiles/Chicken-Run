@@ -12,6 +12,8 @@ public class Credits : MonoBehaviour
     //function for quit button
     public void quitGame()
     {
+        //resets highscore on Application quit
+        PlayerPrefs.DeleteAll();
         Application.Quit();
     }
     //function for retry button

@@ -12,6 +12,7 @@ public class GameComplete : MonoBehaviour
     public void LoadWinScreen()
     {
         //loads win scene when the game is finished
+        Cursor.visible = true;
         SceneManager.LoadScene("WinScreen");
         
     }
