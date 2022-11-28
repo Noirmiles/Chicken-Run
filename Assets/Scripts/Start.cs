@@ -14,6 +14,7 @@ public class Start : MonoBehaviour
     public void StartGame()
     {
         //highscore resets when app is started, but kept during the game session
+        Cursor.visible = true;
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("Level1");
     }

@@ -12,6 +12,7 @@ public class GameLost : MonoBehaviour
     public void LoadLoseScreen()
     {
         //loads lose scene when the game is finished
+        Cursor.visible = true;
         SceneManager.LoadScene("LoseScreen");
         
     }
