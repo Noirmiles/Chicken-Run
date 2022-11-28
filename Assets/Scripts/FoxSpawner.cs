@@ -28,7 +28,7 @@ public class FoxSpawner : MonoBehaviour
     //recursively spawns foxes
     void FoxSpawn()
     {
-        //rnadomizes position and spawn time of foxes
+        //randomizes position and spawn time of foxes
         int rand_pos = Random.Range(0, 15);
         float rand_spawn = Random.Range(1.5f, 2.0f);
         Vector3 spawn_pos;

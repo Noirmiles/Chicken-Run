@@ -23,7 +23,7 @@ public class EggScript : MonoBehaviour
         
     }
 
-    //egg is destoryed on collection
+    //egg is destroyed on collection
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -40,6 +40,4 @@ public class EggScript : MonoBehaviour
                 return;
         }
     }
-  
-
 }

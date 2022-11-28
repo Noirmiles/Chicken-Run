@@ -19,7 +19,7 @@ public class Fox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //continously makes the fox move
+        //continuously makes the fox move
         transform.Translate(0f, 0f, 1.5f);
     }
     //has the game delete the fox when it reaches the end so that memory isn't cluttered
