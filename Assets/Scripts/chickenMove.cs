@@ -83,6 +83,14 @@ public class chickenMove : MonoBehaviour
             anim.SetBool("isDead", true);
             FindObjectOfType<GameManager>().LostGame();
         }
+        if (collision.gameObject.tag == "log")
+
+        {
+            // player movement stops and game ends when log is hit
+            playerMove = false;
+            anim.SetBool("isDead", true);
+            FindObjectOfType<GameManager>().LostGame();
+        }
         if (collision.gameObject.tag == "barn")
             //lets the game know the player has won
         {

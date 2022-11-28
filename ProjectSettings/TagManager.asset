@@ -9,6 +9,7 @@ TagManager:
   - barn
   - fox
   - despawn
+  - log
   layers:
   - Default
   - TransparentFX
