@@ -24,7 +24,7 @@ public class Score : MonoBehaviour
         //maintain highscore during replays in session
         maxscore = PlayerPrefs.GetInt("highscore", 0);
         scoreText.text = "Eggs Collected: " + score.ToString();
-        highscoreText.text = "Max Collected: " + maxscore.ToString();
+        highscoreText.text = "High Score: " + maxscore.ToString();
     }
 
     void Update()
